@@ -1,0 +1,67 @@
+{
+  "name": "My Example Source",
+  "subtitle": "A source for all of my apps",
+  "description": "Welcome to my source! Here you'll find all of my apps.",
+  "iconURL": "https://i.imgur.com/pqIZoZo.jpeg",
+  "website": "https://altstudio.app",
+  "patreonURL": "https://patreon.com/altstudio",
+  "tintColor": "#6156e2",
+  "featuredApps": [],
+  "apps": [
+    {
+      "name": "Portal",
+      "bundleIdentifier": "com.timi250620.wsf-portal",
+      "marketplaceID": "",
+      "developerName": "Example Developer",
+      "subtitle": "An awesome app.",
+      "localizedDescription": "This is an awesome app only available on AltStore.",
+      "iconURL": "https://i.imgur.com/1n4MkAE.png",
+      "tintColor": "#450af4",
+      "category": "other",
+      "screenshots": [],
+      "versions": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "Share Content from Portal on one device to another",
+          "NSBluetoothPeripheralUsageDescription": "Share Content from Portal on one device to another",
+          "NSLocalNetworkUsageDescription": "Share Files",
+          "NSNearbyInteractionUsageDescription": "Share Content from Portal on one device to another"
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "NineAnimator",
+      "bundleIdentifier": "com.marcuszhou.NineAnimator",
+      "marketplaceID": "",
+      "developerName": "Example Developer",
+      "subtitle": "An awesome app.",
+      "localizedDescription": "This is an awesome app only available on AltStore and SideStore",
+      "iconURL": "https://i.imgur.com/XOfKOPk.png",
+      "tintColor": "#764ccc",
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/SuperMarcus/NineAnimator/releases/tag/1.2.7-6",
+          "size": 9100000,
+          "version": "1.2.7",
+          "buildVersion": null,
+          "date": "2025-09-04T08:48:00+10:00",
+          "localizedDescription": "Monke",
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSHomeKitUsageDescription": "NineAnimator uses Home to run certain scenes during playback.",
+          "NSLocalNetworkUsageDescription": "NineAnimator uses the local network to discover Cast-enabled devices on your home network."
+        }
+      },
+      "patreon": {}
+    }
+  ],
+  "news": []
+}
