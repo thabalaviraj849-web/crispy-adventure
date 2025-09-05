@@ -1,0 +1,52 @@
+{
+  "name": "My Example Source",
+  "subtitle": "A source for all of my apps",
+  "description": "Welcome to my source! Here you'll find all of my apps.",
+  "iconURL": "https://i.imgur.com/pqIZoZo.jpeg",
+  "website": "https://altstudio.app",
+  "patreonURL": "https://patreon.com/altstudio",
+  "tintColor": "#6156e2",
+  "featuredApps": [],
+  "apps": [
+    {
+      "name": "Feather",
+      "bundleIdentifier": "thewonderofyou.Feather",
+      "marketplaceID": "",
+      "developerName": "Example Developer",
+      "subtitle": "An awesome app.",
+      "localizedDescription": "This is an awesome app only available on AltStore and SideStore",
+      "iconURL": "https://i.imgur.com/vQirLh4.png",
+      "tintColor": "#7736c8",
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/khcrysalis/Feather/releases/tag/v2.3.1",
+          "size": 12600000,
+          "version": "2.3.1",
+          "buildVersion": "14",
+          "date": "2025-09-05T06:47:00+10:00",
+          "localizedDescription": "Feather for SideStore \n",
+          "minOSVersion": "14.0"
+        },
+        {
+          "downloadURL": "https://github.com/SuperMarcus/NineAnimator/releases/tag/1.2.7-6",
+          "size": 9100000,
+          "version": "1.2.7",
+          "buildVersion": "17",
+          "date": "2025-09-03T22:48:00+10:00",
+          "localizedDescription": "Monke",
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSHumanReadableCopyright": "Copyright (c) 2024 Samara M"
+        }
+      },
+      "patreon": {}
+    }
+  ],
+  "news": []
+}
