@@ -1,0 +1,44 @@
+{
+  "name": "My Example Source",
+  "subtitle": "A source for all of my apps",
+  "description": "Welcome to my source! Here you'll find all of my apps.",
+  "iconURL": "https://i.imgur.com/pqIZoZo.jpeg",
+  "website": "https://altstudio.app",
+  "patreonURL": "https://patreon.com/altstudio",
+  "tintColor": "#6156e2",
+  "featuredApps": [],
+  "apps": [
+    {
+      "name": "NineAnimator",
+      "bundleIdentifier": "com.marcuszhou.NineAnimator",
+      "marketplaceID": "",
+      "developerName": "Example Developer",
+      "subtitle": "An awesome app.",
+      "localizedDescription": "This is an awesome app only available on AltStore and SideStore",
+      "iconURL": "https://i.imgur.com/XOfKOPk.png",
+      "tintColor": "#764ccc",
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/SuperMarcus/NineAnimator/releases/tag/1.2.7-6",
+          "size": 9100000,
+          "version": "1.2.7",
+          "buildVersion": "17",
+          "date": "2025-09-03T22:48:00+10:00",
+          "localizedDescription": "Monke",
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSHomeKitUsageDescription": "NineAnimator uses Home to run certain scenes during playback.",
+          "NSLocalNetworkUsageDescription": "NineAnimator uses the local network to discover Cast-enabled devices on your home network."
+        }
+      },
+      "patreon": {}
+    }
+  ],
+  "news": []
+}
